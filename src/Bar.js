@@ -6,7 +6,7 @@ const BarContainer = styled.div`
     justify-content:flex-start;
     align-items:center;
     height:20px;
-    width:100;
+    width:100px;
     margin: 10px auto;
     background-color:black;
     -webkit-border-radius: 4px;
