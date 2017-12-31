@@ -1,0 +1,35 @@
+.employmentWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.employmentHeader{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25em;
+}
+
+.employmentSubHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.employmentDetails {
+    padding: 15px 0px 0px 0px;
+}
+
+
+.summaryDetails {
+
+}
+
+.summaryKeywords{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 15px 0px 0px 0px;
+    color:#c7c7c7;
+}
+
+
+

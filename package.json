@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
+    "react-popover": "^0.5.4",
     "react-scripts": "1.0.17",
+    "react-tooltip": "^3.4.0",
     "styled-components": "^2.2.3"
   },
   "scripts": {
