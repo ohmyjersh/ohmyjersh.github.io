@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Bar from './Bar';
+import Bar from './bar';
 
 const SkillItem = styled.div`
     display:flex;
@@ -36,6 +36,6 @@ const SkillsList = styled.div`
 
 export default ({skills}) => (
     <SkillsList>
-        {skills.map(x => <Skill skill={x}/>)}
+        {skills.map((x,index) => <Skill key={index} skill={x}/>)}
     </SkillsList>    
 )

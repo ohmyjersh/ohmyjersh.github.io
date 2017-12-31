@@ -1,0 +1,73 @@
+{
+    "skills": [{
+        "name": "javascrip",
+        "percentage": 65
+    }, {
+        "name": "c#",
+        "percentage": 75
+    }],
+    "employmentHistory": [{
+            "company": "Incomm Digital Solutions",
+            "location": "Portland, OR",
+            "title": "Software Engineer",
+            "years": "April 2013 - Present",
+            "highlights": ["build distrobuted email system with message queues, multipel servces, react", "improved consistent automation data quality with scrub process from production database", "mentored junior engineers on best practices of design and implementation"],
+            "keyWords": ["c#", "javascript", "react", "angular", "sql", "c#", "javascript", "react", "angular", "sql", "c#", "javascript", "react", "angular", "sql", "tdd", "automation"]
+        },
+        {
+            "company": "Plexis Healthcare System",
+            "location": "Ashland, OR",
+            "title": "QA Engineer II",
+            "years": "March 2012 - April 2013",
+            "highlights": ["build distrobuted email system with message queues, multipel servces, react", "improved consistent automation data quality with scrub process from production database", "mentored junior engineers on best practices of design and implementation"],
+            "keyWords": ["c#", "javascript", "react", "angular", "sql", "c#", "javascript", "react", "angular", "sql", "c#", "javascript", "react", "angular", "sql", "tdd", "automation"]
+        },
+        {
+            "company": "Lighthouse Worldwide Solutions",
+            "location": "Medford, OR",
+            "title": "SQA Engineer",
+            "years": "April 2011 - Oct 2011",
+            "highlights": ["build distrobuted email system with message queues, multipel servces, react", "improved consistent automation data quality with scrub process from production database", "mentored junior engineers on best practices of design and implementation"],
+            "keyWords": ["c#", "javascript", "react", "angular", "sql", "c#", "javascript", "react", "angular", "sql", "c#", "javascript", "react", "angular", "sql", "tdd", "automation"]
+        },
+        {
+            "company": "Symyx Technologies",
+            "location": "Bend, OR",
+            "title": "Software Test Engineer",
+            "years": "June 2008 - Aug 2010",
+            "highlights": ["build distrobuted email system with message queues, multipel servces, react", "improved consistent automation data quality with scrub process from production database", "mentored junior engineers on best practices of design and implementation"],
+            "keyWords": ["c#", "javascript", "react", "angular", "sql", "c#", "javascript", "react", "angular", "sql", "c#", "javascript", "react", "angular", "sql", "tdd", "automation"]
+        }
+    ],
+    "references": [{
+            "who": "Christian Danielson",
+            "title": "Software Engineer in Test",
+            "said": "Josh has a ferocious work ethic and set a great example of being a committed team member who's always looking to add value and solve problems"
+        },
+        {
+            "who": "John Staelens",
+            "title": "Software Creator",
+            "said": "His focus on creating maintainable and reuseable test code reduced the amount of time it took to add coverage to new areas of the application."
+        },
+        {
+            "who": "Andrew Colclough",
+            "title": "Senior UX Developer",
+            "said": "He has deep technical chops, and while I worked iwth him, he was always researching and implmenting better way to automation and streamline our build and dev processes."
+        },
+        {
+            "who": "James Elgee",
+            "title": "Senior Software Engineer",
+            "said": "Josh is very good at picking up new technologies and a very rapid pace."
+        },
+        {
+            "who": "James Jack",
+            "title": "Principle Solutions Architect",
+            "said": "Josh is a very smart guy; he picks up on concepts quickly and is able to work well with little or no supervision.  He also writes good code."
+        },
+        {
+            "who": "Seth McCarthy",
+            "title": "Software Development Manager",
+            "said": "Josh is a fun, likeable, people person.  The positive impact of this on his work in a team setting cannot be over stated."
+        }
+    ]
+}
