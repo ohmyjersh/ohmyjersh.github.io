@@ -13,7 +13,8 @@ class References extends React.Component {
     }
 
     setReference = () => {
-        return this.state.referenceIndex <= 4 ? this.setState({ referenceIndex: (this.state.referenceIndex + 1) }) : this.setState({ referenceIndex: 0 });
+        let newReferenceId = this.state.referenceIndex + 1;
+        return newReferenceId < this.props.references.length ? this.setState({ referenceIndex: newReferenceId }) : this.setState({ referenceIndex: 0 });
     }
 
     componentWillMount() {
