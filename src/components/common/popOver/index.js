@@ -1,11 +1,10 @@
 
-import "../base.css"
-import "./main.css"
-import F from "ramda"
-import React from "react"
-import Popover from "../../lib"
+import "./base.css";
+import "./main.css";
+import React from "react";
+import Popover from "react-popover";
 
-const Pop = ({body, open, toggle}) => {
+const Pop = ({body, open, toggle, children}) => {
     return (
         <Popover
         isOpen={open}
@@ -13,9 +12,9 @@ const Pop = ({body, open, toggle}) => {
         children={
           <div
             className="Row"
-            onMouseOver={() => this.toggle(true)}
-            onMouseOut={() => this.toggle(false)}
-            children={this.props.children}
+            onMouseOver={() => toggle(true)}
+            onMouseOut={() => toggle(false)}
+            children={children}
           />
         }
       />
@@ -33,7 +32,7 @@ function PopOverHoc(WrappedComponent, text) {
   
       render() {
         return <WrappedComponent 
-            open={isOpen}
+            open={this.state.isOpen}
             body={text}
             toggle={this.toggle} />;
       }

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Skills from './skills';
 import Employment from './employment';
+import Education from './education';
 import References from './references';
 import About from './about';
 import resume from './resume.json';
@@ -76,6 +77,7 @@ export default props => {
                 </SkillsContainer>
                 <EducationContainer>
                     <Header>Education</Header>
+                    <Education education={resume.educationHistory} />
                 </EducationContainer>
             </SideContainer>
             <MainContainer>

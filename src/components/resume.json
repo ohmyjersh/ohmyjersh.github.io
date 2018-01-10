@@ -1,6 +1,6 @@
 {
     "skills": [{
-        "name": "javascrip",
+        "name": "javascript",
         "percentage": 65
     }, {
         "name": "c#",
@@ -39,6 +39,18 @@
             "keyWords": ["c#", "javascript", "react", "angular", "sql", "c#", "javascript", "react", "angular", "sql", "c#", "javascript", "react", "angular", "sql", "tdd", "automation"]
         }
     ],
+    "educationHistory":[{
+        "name":"Central Oregon Community College",
+        "years":"2006-2008",
+        "focus":"General Transfer Credits",
+        "note": null
+    },
+    {
+        "name":"Oregon Instutution of Technology",
+        "years":"2009-2010",
+        "focus":"Application Development",
+        "note": "Due to career obligation and focus, I did not finish my degree"
+    }],
     "references": [{
             "who": "Christian Danielson",
             "title": "Software Engineer in Test",
